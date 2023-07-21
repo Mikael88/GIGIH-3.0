@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #1db954);
+	  background-size: 400% 400%;
+	  animation: gradient 15s ease infinite;
+	  height: 100vh;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label,
+  input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    display: block;
+  }
+  
+  #playlist {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .song {
+    margin-bottom: 5px;
+  }
+  
+  .song h3 {
+    margin: 0;
+  }
+  
+  .song p {
+    margin: 0;
+    color: #777;
+  }

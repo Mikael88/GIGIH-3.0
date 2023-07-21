@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Playlist</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Spotify Playlist</h1>
+    
+        <form id="addForm">
+          <label for="songName">Song Name:</label>
+          <input type="text" id="songName" required>
+    
+          <label for="artists">Artists:</label>
+          <input type="text" id="artists" required>
+    
+          <label for="url">Spotify URL:</label>
+          <input type="text" id="url" required>
+    
+          <button type="submit">Add Song</button>
+        </form>
+    
+        <div id="playlist">
+          <!-- Playlist will be dynamically populated here -->
+        </div>
+    
+        <h2>Most Played Songs</h2>
+    
+        <div id="mostPlayed">
+          <!-- Most played songs will be dynamically populated here -->
+        </div>
+      </div>
+    
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="script.js"></script>
+</body>
+</html>
