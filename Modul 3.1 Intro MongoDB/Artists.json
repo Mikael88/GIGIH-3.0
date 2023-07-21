@@ -1,0 +1,42 @@
+[
+    {
+      "name": "Ed Sheeran",
+      "date_of_birth": "1991-02-17",
+      "genre": ["Pop", "R&B"]
+    },
+    {
+      "name": "Adele",
+      "date_of_birth": "1988-05-05",
+      "genre": ["Pop", "Soul"]
+    },
+    {
+      "name": "Michael Jackson",
+      "date_of_birth": "1958-08-29",
+      "genre": ["Pop", "R&B"]
+    },
+    {
+      "name": "Queen",
+      "date_of_birth": "1970-06-27",
+      "genre": ["Rock"]
+    },
+    {
+      "name": "John Lennon",
+      "date_of_birth": "1940-10-09",
+      "genre": ["Rock"]
+    },
+    {
+      "name": "Eagles",
+      "date_of_birth": "1971-01-01",
+      "genre": ["Rock", "Country"]
+    },
+    {
+      "name": "Bob Dylan",
+      "date_of_birth": "1941-05-24",
+      "genre": ["Rock", "Folk"]
+    },
+    {
+      "name": "Earth, Wind & Fire",
+      "date_of_birth": "1969-02-21",
+      "genre": ["R&B", "Funk"]
+    }
+  ]
